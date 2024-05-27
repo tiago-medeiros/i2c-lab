@@ -1,0 +1,444 @@
+
+Wrote 53 to 08, address 63
+Wrote 53 to 08, address 61
+Wrote 01 to 0b, address 61
+Wrote 00 to 0b, address 63
+Wrote 44 to 08, address 61
+Wrote 44 to 08, address 63
+Wrote 53 to 08, address 63
+Wrote 53 to 08, address 61
+Wrote 00 to 09, address 61
+Wrote 01 to 0c, address 61
+Wrote 00 to 0e, address 61
+Wrote 02 to 27, address 61
+Wrote ff to 31, address 61
+Wrote 23 to 32, address 61
+Wrote 00 to 33, address 61
+Wrote 00 to 09, address 63
+Wrote 01 to 0c, address 63
+Wrote 00 to 0e, address 63
+Wrote 02 to 27, address 63
+Wrote ff to 31, address 63
+Wrote 23 to 32, address 63
+Wrote 00 to 33, address 63
+Wrote 44 to 08, address 61
+Wrote 44 to 08, address 63
+
+# Set to solid orange
+sudo i2cset -y 6 0x63 0x08 0x53 
+sudo i2cset -y 6 0x61 0x08 0x53 
+sudo i2cset -y 6 0x61 0x0b 0x01 
+sudo i2cset -y 6 0x63 0x0b 0x00 
+sudo i2cset -y 6 0x61 0x08 0x44 
+sudo i2cset -y 6 0x63 0x08 0x44 
+sudo i2cset -y 6 0x63 0x08 0x53 
+sudo i2cset -y 6 0x61 0x08 0x53 
+sudo i2cset -y 6 0x61 0x09 0x00 
+sudo i2cset -y 6 0x61 0x0c 0x01 
+sudo i2cset -y 6 0x61 0x0e 0x00 
+sudo i2cset -y 6 0x61 0x27 0x02 
+sudo i2cset -y 6 0x61 0x31 0xff 
+sudo i2cset -y 6 0x61 0x32 0x23 
+sudo i2cset -y 6 0x61 0x33 0x00 
+sudo i2cset -y 6 0x63 0x09 0x00 
+sudo i2cset -y 6 0x63 0x0c 0x01 
+sudo i2cset -y 6 0x63 0x0e 0x00 
+sudo i2cset -y 6 0x63 0x27 0x02 
+sudo i2cset -y 6 0x63 0x31 0xff 
+sudo i2cset -y 6 0x63 0x32 0x23 
+sudo i2cset -y 6 0x63 0x33 0x00 
+sudo i2cset -y 6 0x61 0x08 0x44 
+sudo i2cset -y 6 0x63 0x08 0x44 
+
+# Prism
+Wrote 53 to 08, address 63
+Wrote 53 to 08, address 61
+Wrote 01 to 0b, address 61
+Wrote 00 to 0b, address 63
+Wrote 44 to 08, address 61
+Wrote 44 to 08, address 63
+Wrote 53 to 08, address 63
+Wrote 53 to 08, address 61
+Wrote 11 to 09, address 61
+Wrote 02 to 27, address 61
+Wrote 02 to 0d, address 61
+Wrote 2a to 0e, address 61
+Wrote 11 to 09, address 63
+Wrote 02 to 27, address 63
+Wrote 02 to 0d, address 63
+Wrote 2a to 0e, address 63
+Wrote 44 to 08, address 61
+
+# prism low brightness
+Wrote 53 to 08, address 63
+Wrote 53 to 08, address 61
+Wrote 01 to 0b, address 61
+Wrote 00 to 0b, address 63
+Wrote 44 to 08, address 61
+Wrote 44 to 08, address 63
+Wrote 53 to 08, address 63
+Wrote 53 to 08, address 61
+Wrote 02 to 27, address 61
+Wrote 01 to 20, address 61
+Wrote 02 to 27, address 63
+Wrote 01 to 20, address 63
+Wrote 44 to 08, address 61
+Wrote 44 to 08, address 63
+
+# Prism high brightness
+Wrote 53 to 08, address 63
+Wrote 53 to 08, address 61
+Wrote 01 to 0b, address 61
+Wrote 00 to 0b, address 63
+Wrote 44 to 08, address 61
+Wrote 44 to 08, address 63
+Wrote 53 to 08, address 63
+Wrote 53 to 08, address 61
+Wrote 02 to 27, address 61
+Wrote 64 to 20, address 61
+Wrote 02 to 27, address 63
+Wrote 64 to 20, address 63
+Wrote 44 to 08, address 61
+Wrote 44 to 08, address 63
+
+# prism high speed
+Wrote 53 to 08, address 63
+Wrote 53 to 08, address 61
+Wrote 01 to 0b, address 61
+Wrote 00 to 0b, address 63
+Wrote 44 to 08, address 61
+Wrote 44 to 08, address 63
+Wrote 53 to 08, address 63
+Wrote 53 to 08, address 61
+Wrote 02 to 27, address 61
+Wrote 00 to 0e, address 61
+Wrote 02 to 27, address 63
+Wrote 00 to 0e, address 63
+Wrote 44 to 08, address 61
+Wrote 44 to 08, address 63
+
+# prismo low speed
+Wrote 53 to 08, address 63
+Wrote 53 to 08, address 61
+Wrote 01 to 0b, address 61
+Wrote 00 to 0b, address 63
+Wrote 44 to 08, address 61
+Wrote 44 to 08, address 63
+Wrote 53 to 08, address 63
+Wrote 53 to 08, address 61
+Wrote 02 to 27, address 61
+Wrote 3c to 0e, address 61
+Wrote 02 to 27, address 63
+Wrote 3c to 0e, address 63
+Wrote 44 to 08, address 61
+Wrote 44 to 08, address 63
+
+# prism high delay time
+Wrote 53 to 08, address 63
+Wrote 53 to 08, address 61
+Wrote 01 to 0b, address 61
+Wrote 00 to 0b, address 63
+Wrote 44 to 08, address 61
+Wrote 44 to 08, address 63
+Wrote 53 to 08, address 63
+Wrote 53 to 08, address 61
+Wrote 02 to 27, address 61
+Wrote 06 to 0d, address 61
+Wrote 02 to 27, address 63
+Wrote 06 to 0d, address 63
+Wrote 44 to 08, address 61
+Wrote 44 to 08, address 63
+
+# Prism low delay time
+Wrote 53 to 08, address 63
+Wrote 53 to 08, address 61
+Wrote 01 to 0b, address 61
+Wrote 00 to 0b, address 63
+Wrote 44 to 08, address 61
+Wrote 44 to 08, address 63
+Wrote 53 to 08, address 63
+Wrote 53 to 08, address 61
+Wrote 02 to 27, address 61
+Wrote 02 to 0d, address 61
+Wrote 02 to 27, address 63
+Wrote 02 to 0d, address 63
+Wrote 44 to 08, address 61
+Wrote 44 to 08, address 63
+
+
+
+# spectrum
+Wrote 53 to 08, address 63
+Wrote 53 to 08, address 61
+Wrote 01 to 0b, address 61
+Wrote 00 to 0b, address 63
+Wrote 44 to 08, address 61
+Wrote 44 to 08, address 63
+Wrote 53 to 08, address 63
+Wrote 53 to 08, address 61
+Wrote 02 to 27, address 61
+Wrote 02 to 27, address 63
+Wrote 44 to 08, address 61
+Wrote 44 to 08, address 63
+
+# Slide
+Wrote 53 to 08, address 63
+Wrote 53 to 08, address 61
+Wrote 05 to 09, address 61
+Wrote 02 to 27, address 61
+Wrote 02 to 0c, address 61
+Wrote 03 to 0d, address 61
+Wrote 19 to 0e, address 61
+Wrote 04 to 26, address 61
+Wrote 05 to 09, address 63
+Wrote 02 to 27, address 63
+Wrote 02 to 0c, address 63
+Wrote 03 to 0d, address 63
+Wrote 19 to 0e, address 63
+Wrote 04 to 26, address 63
+Wrote 44 to 08, address 61
+Wrote 44 to 08, address 63
+
+# Slide first color purple
+Wrote 53 to 08, address 63
+Wrote 53 to 08, address 61
+Wrote 01 to 0b, address 61
+Wrote 00 to 0b, address 63
+Wrote 44 to 08, address 61
+Wrote 44 to 08, address 63
+Wrote 53 to 08, address 63
+Wrote 53 to 08, address 61
+Wrote 02 to 27, address 61
+Wrote 37 to 31, address 61
+Wrote 00 to 32, address 61
+Wrote ff to 33, address 61
+Wrote 02 to 27, address 63
+Wrote 37 to 31, address 63
+Wrote 00 to 32, address 63
+Wrote ff to 33, address 63
+Wrote 44 to 08, address 61
+Wrote 44 to 08, address 63
+
+# Slide 2nd color red
+Wrote 53 to 08, address 63
+Wrote 53 to 08, address 61
+Wrote 01 to 0b, address 61
+Wrote 00 to 0b, address 63
+Wrote 44 to 08, address 61
+Wrote 44 to 08, address 63
+Wrote 53 to 08, address 63
+Wrote 53 to 08, address 61
+Wrote 02 to 27, address 61
+Wrote ff to 34, address 61
+Wrote 00 to 35, address 61
+Wrote 00 to 36, address 61
+Wrote 02 to 27, address 63
+Wrote ff to 34, address 63
+Wrote 00 to 35, address 63
+Wrote 00 to 36, address 63
+Wrote 44 to 08, address 61
+Wrote 44 to 08, address 63
+
+# Slide last color green
+Wrte 53 to 08, address 63
+Wrote 53 to 08, address 61
+Wrote 01 to 0b, address 61
+Wrote 00 to 0b, address 63
+Wrote 44 to 08, address 61
+Wrote 44 to 08, address 63
+Wrote 53 to 08, address 63
+Wrote 53 to 08, address 61
+Wrote 02 to 27, address 61
+Wrote 00 to 4c, address 61
+Wrote ff to 4d, address 61
+Wrote 00 to 4e, address 61
+Wrote 02 to 27, address 63
+Wrote 00 to 4c, address 63
+Wrote ff to 4d, address 63
+Wrote 00 to 4e, address 63
+Wrote 44 to 08, address 61
+Wrote 44 to 08, address 63
+
+# wind
+Wrote 53 to 08, address 63
+Wrote 53 to 08, address 61
+Wrote 01 to 0b, address 61
+Wrote 00 to 0b, address 63
+Wrote 44 to 08, address 61
+Wrote 44 to 08, address 63
+Wrote 53 to 08, address 63
+Wrote 53 to 08, address 61
+Wrote 02 to 27, address 61
+Wrote 02 to 27, address 63
+Wrote 44 to 08, address 61
+Wrote 44 to 08, address 63
+
+# from wind to static purple
+Wrote 53 to 08, address 63
+Wrote 53 to 08, address 61
+Wrote 01 to 0b, address 61
+Wrote 00 to 0b, address 63
+Wrote 44 to 08, address 61
+Wrote 44 to 08, address 63
+Wrote 53 to 08, address 63
+Wrote 53 to 08, address 61
+Wrote 00 to 09, address 61
+Wrote 01 to 0c, address 61
+Wrote 00 to 0d, address 61
+Wrote 00 to 0e, address 61
+Wrote 01 to 30, address 61
+Wrote 02 to 27, address 61
+Wrote 00 to 09, address 63
+Wrote 01 to 0c, address 63
+Wrote 00 to 0d, address 63
+Wrote 00 to 0e, address 63
+Wrote 01 to 30, address 63
+Wrote 02 to 27, address 63
+Wrote 44 to 08, address 61
+Wrote 44 to 08, address 63
+
+# from static to lightspeed
+Wrote 53 to 08, address 63
+Wrote 53 to 08, address 61
+Wrote 01 to 0b, address 61
+Wrote 00 to 0b, address 63
+Wrote 44 to 08, address 61
+Wrote 44 to 08, address 63
+Wrote 53 to 08, address 63
+Wrote 53 to 08, address 61
+Wrote 06 to 09, address 61
+Wrote 02 to 27, address 61
+Wrote 01 to 0c, address 61
+Wrote 00 to 0d, address 61
+Wrote 33 to 0e, address 61
+Wrote 07 to 26, address 61
+Wrote 0a to 30, address 61
+Wrote 06 to 09, address 63
+Wrote 02 to 27, address 63
+Wrote 01 to 0c, address 63
+Wrote 00 to 0d, address 63
+Wrote 33 to 0e, address 63
+Wrote 07 to 26, address 63
+Wrote 0a to 30, address 63
+Wrote 44 to 08, address 61
+Wrote 44 to 08, address 63
+
+# from static to rain
+Wrote 53 to 08, address 63
+Wrote 53 to 08, address 61
+Wrote 00 to 0b, address 61
+Wrote 00 to 0b, address 63
+Wrote 44 to 08, address 61
+Wrote 44 to 08, address 63
+Wrote 53 to 08, address 63
+Wrote 53 to 08, address 61
+Wrote 06 to 09, address 61
+Wrote 00 to 0d, address 61
+Wrote 03 to 26, address 61
+Wrote 02 to 27, address 61
+Wrote 02 to 0c, address 61
+Wrote 13 to 0e, address 61
+Wrote 0a to 30, address 61
+Wrote 06 to 09, address 63
+Wrote 00 to 0d, address 63
+Wrote 03 to 26, address 63
+Wrote 02 to 27, address 63
+Wrote 02 to 0c, address 63
+Wrote 08 to 0e, address 63
+Wrote 0a to 30, address 63
+Wrote 44 to 08, address 61
+Wrote 44 to 08, address 63
+
+# from static to breath
+Wrote 53 to 08, address 63
+Wrote 53 to 08, address 61
+Wrote 01 to 0b, address 61
+Wrote 00 to 0b, address 63
+Wrote 44 to 08, address 61
+Wrote 44 to 08, address 63
+Wrote 53 to 08, address 63
+Wrote 53 to 08, address 61
+Wrote 03 to 09, address 61
+Wrote 01 to 0c, address 61
+Wrote 00 to 0d, address 61
+Wrote 00 to 0e, address 61
+Wrote 02 to 27, address 61
+Wrote 0f to 16, address 61
+Wrote 05 to 17, address 61
+Wrote 05 to 18, address 61
+Wrote 0f to 19, address 61
+Wrote 01 to 1a, address 61
+Wrote 64 to 1b, address 61
+Wrote 40 to 1c, address 61
+Wrote 01 to 1d, address 61
+Wrote 0a to 30, address 61
+Wrote 03 to 09, address 63
+Wrote 01 to 0c, address 63
+Wrote 00 to 0d, address 63
+Wrote 00 to 0e, address 63
+Wrote 02 to 27, address 63
+Wrote 0f to 16, address 63
+Wrote 05 to 17, address 63
+Wrote 05 to 18, address 63
+Wrote 0f to 19, address 63
+Wrote 01 to 1a, address 63
+Wrote 64 to 1b, address 63
+Wrote 40 to 1c, address 63
+Wrote 01 to 1d, address 63
+Wrote 0a to 30, address 63
+Wrote 44 to 08, address 61
+Wrote 44 to 08, address 63
+
+# from static to dynamic
+Wrote 53 to 08, address 63
+Wrote 53 to 08, address 61
+Wrote 01 to 0b, address 61
+Wrote 00 to 0b, address 63
+Wrote 44 to 08, address 61
+Wrote 44 to 08, address 63
+Wrote 53 to 08, address 63
+Wrote 53 to 08, address 61
+Wrote 04 to 09, address 61
+Wrote 00 to 0d, address 61
+Wrote 00 to 0e, address 61
+Wrote 01 to 0c, address 61
+Wrote 02 to 27, address 61
+Wrote 01 to 12, address 61
+Wrote 01 to 13, address 61
+Wrote 05 to 14, address 61
+Wrote 01 to 15, address 61
+Wrote 0a to 30, address 61
+Wrote 04 to 09, address 63
+Wrote 00 to 0d, address 63
+Wrote 00 to 0e, address 63
+Wrote 01 to 0c, address 63
+Wrote 02 to 27, address 63
+Wrote 01 to 12, address 63
+Wrote 01 to 13, address 63
+Wrote 05 to 14, address 63
+Wrote 01 to 15, address 63
+Wrote 0a to 30, address 63
+Wrote 44 to 08, address 61
+Wrote 44 to 08, address 63
+
+# from dynamic to twilight
+Wrote 53 to 08, address 63
+Wrote 53 to 08, address 61
+Wrote 01 to 0b, address 61
+Wrote 00 to 0b, address 63
+Wrote 44 to 08, address 61
+Wrote 44 to 08, address 63
+Wrote 53 to 08, address 63
+Wrote 53 to 08, address 61
+Wrote 0a to 09, address 61
+Wrote 00 to 0d, address 61
+Wrote 02 to 27, address 61
+Wrote 01 to 0c, address 61
+Wrote 33 to 0e, address 61
+Wrote 0a to 09, address 63
+Wrote 00 to 0d, address 63
+Wrote 02 to 27, address 63
+Wrote 01 to 0c, address 63
+Wrote 33 to 0e, address 63
+Wrote 44 to 08, address 61
+Wrote 44 to 08, address 63
